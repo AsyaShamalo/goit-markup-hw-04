@@ -208,7 +208,6 @@ font-style: normal;
 
 .hero-btn:hover, .hero-btn:focus {
     background-color: #404bbf;
-    
 }
 
 /* #endregion hero */
@@ -516,8 +515,7 @@ align-items: baseline;
 }
 
 .footer-icon-div{
-    display: flex;
-    align-items: baseline;
+    flex-direction: column;
 }
 .footer-p {
     font-weight: 500;
@@ -526,6 +524,7 @@ align-items: baseline;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    display: inline-block;
 }
 .footer-icon {
     display: flex;
